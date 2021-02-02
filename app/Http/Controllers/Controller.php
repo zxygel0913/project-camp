@@ -18,6 +18,11 @@ class Controller extends BaseController
         return $this->statusCode;
     }
 
+    public function getStatusCode1()
+    {
+        return $this->statusCode;
+    }
+
     public function setStatusCode($statusCode)
     {
         $this->statusCode = $statusCode;
